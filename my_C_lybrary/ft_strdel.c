@@ -6,7 +6,7 @@
 /*   By: tavelino <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/26 16:48:58 by tavelino          #+#    #+#             */
-/*   Updated: 2018/04/27 16:47:15 by tavelino         ###   ########.fr       */
+/*   Updated: 2018/04/28 17:15:28 by tavelino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,9 @@
 
 void	ft_strdel(char **as)
 {
-	ft_memdel((void**)as);
+	if (as && *as)
+	{
+		free(*as);
+		*as = NULL;
+	}
 }

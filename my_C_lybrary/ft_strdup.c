@@ -6,7 +6,7 @@
 /*   By: tavelino <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/24 16:12:43 by tavelino          #+#    #+#             */
-/*   Updated: 2018/04/26 22:00:29 by tavelino         ###   ########.fr       */
+/*   Updated: 2018/04/28 23:46:15 by tavelino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 #include <string.h>
 #include "libft.h"
 
-char	*ft_strdup(const char *src)
+char	*ft_strdup(const char *s1)
 {
 	char	*str;
 	int		i;
 
 	i = 0;
-	if (!(str = (char*)malloc(sizeof(*str) * ft_strlen(src) + 1)))
+	if (!(str = (char*)malloc(sizeof(*str) * ft_strlen(s1) + 1)))
 		return (NULL);
-	while (src[i] != '\0')
+	while (s1[i] != '\0')
 	{
-		str[i] = src[i];
+		str[i] = s1[i];
 		i++;
 	}
 	str[i] = '\0';

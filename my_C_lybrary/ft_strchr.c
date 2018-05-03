@@ -6,19 +6,21 @@
 /*   By: tavelino <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/26 16:21:39 by tavelino          #+#    #+#             */
-/*   Updated: 2018/04/26 16:44:36 by tavelino         ###   ########.fr       */
+/*   Updated: 2018/04/29 00:08:15 by tavelino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strchr(const char *str, int c)
+#include <string.h>
+
+char	*ft_strchr(const char *s, int c)
 {
-	while (*str)
+	while (*s)
 	{
-		if (*str == (unsigned char)c)
-			return ((char *)str);
-		str++;
+		if (*s == (char)c)
+			return ((char*)s);
+		++s;
 	}
-	if (*str == (unsigned char)c)
-		return ((char *)str);
+	if (c == '\0')
+		return ((char*)s);
 	return (0);
 }
