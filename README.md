@@ -1,2 +1,2 @@
-# C-language-projects
+# Libft
 Studying C for school 42
