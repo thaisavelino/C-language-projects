@@ -13,3 +13,6 @@ In most of time in our formation we need to code on C and we are not allowed to 
 So, this project is to re-write those functions, understand them and learn to use them.
 
 Through this project, I will always be able to expand this list with my own fuctions to have a better lib.
+
+### Check my Projects
+To check more projects go to my [Portfolio page](https://github.com/thaisavelino/Portfiolio_42_SiliconValley_Paris)
