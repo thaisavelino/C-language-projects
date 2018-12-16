@@ -15,4 +15,4 @@ So, this project is to re-write those functions, understand them and learn to us
 Through this project, I will always be able to expand this list with my own fuctions to have a better lib.
 
 ### Check all of my Projects
-[Portfolio page](https://github.com/thaisavelino/Portfiolio_42_SiliconValley_Paris)
+My [Portfolio page](https://github.com/thaisavelino/Portfiolio_42_SiliconValley_Paris)
